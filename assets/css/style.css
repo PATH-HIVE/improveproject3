@@ -1,255 +1,154 @@
-/* --------- Global style */
+:root {
+  --blue: #0066cc;           /* Main blue - a vibrant, standard blue */
+  --light-blue: #e6f2ff;     /* Very light blue - great for backgrounds */
+  --dark-blue: #00295c;      /* Deep navy blue - for contrast and depth */
+  --sky-blue: #4da6ff;       /* Bright sky blue - for highlights */
+  --pale-blue: #b3d9ff;      /* Soft, muted blue - for subtle accents */
+  --white: #ffffff;          /* Standard white */
+  --black: #000000;          /* Standard black */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "open Sans", sans-serif;
+  overflow: hidden;
+}
+
+html {
+  height: 100%;
+}
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: var(--sky-blue);
+  height: 5rem;
+  /* margin-bottom: 10px; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000; /* Ensures header stays on top of other elements */
+}
+header img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%; /* Ensures the image stretches across the header */
+  height: 100%;
+  object-fit: cover; /* Ensures the image covers the header without distorting */
+  z-index: -1; /* Places the image behind the text */
+}
+
 
 body {
-    background-color: white;
-    font-family: "Raleway", sans-serif;
-    color: #445361;
+    /* font-family: Arial, sans-serif; */
+    /* margin: 20px; */
+    height: 100%;
+    min-height: 100vh;
+    background-color: var(--light-blue);
+    color: var(--dark-blue);
+    line-height: 1.6;
     text-align: center;
-}
+    margin: 0; /* Removes default body margin */
+    padding: 0; /* Removes default body padding */
+    font-family: 'Open Sans', sans-serif; /* Consistent typography */
+  }
+ 
+  main {
+    margin: 5rem 0 0 0;
+    display: flex;
+    flex-direction: column;
+    height: calc(100vh - 10rem);
+    padding: 1rem; /* Optional: adds some internal spacing */
+    overflow-y: auto; /* Allows scrolling if content exceeds height */
+    gap: 1rem; /* Adds consistent spacing between flex items */
+  }
 
-/* --------- Heading */
-
-.heading {
-    text-align: center;
-    font-size: 2.5rem;
-}
-
-.logo {
-    height: 40px;
-    padding-right: 5px;
-}
-
-/* --------- Game layout */
-
-.game-area {
-    background-color: #E6ECF0;
-    box-sizing: border-box;
-    width: 85%;
-    height: 65vh;
-    max-height: 450px;
-    max-width: 830px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 1%;
-}
-
-.question-area {
-    width: 50%;
-    font-size: 2rem;
-    margin: auto;
-    padding: 50px 0;
-}
-
-.question-area span {
-    padding: 0 15px;
-}
-
-.score-area {
-    margin: 5px auto;
-    width: 60%;
-    font-size: 1.2rem;
-}
-
-.controls-area {
-    width: 85%;
-    margin: 30px auto;
-}
-
-#score {
-    color: green;
+  
+  h1, h2 {
+    color: #2c3e50;
+  }
+  
+  form {
+    max-width: 600px;
+    margin: 0 auto;
+    max-width: 600px;
+    margin: 0 auto;
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+  }
+  
+  div {
+    margin-bottom: 15px;
+    background-color:var(--pale-blue);
+    
+  }
+  
+  label {
+    display: block;
     font-weight: bold;
-}
-
-#incorrect {
-    color: red;
-    font-weight: bold;
-}
-
-.answer-message {
-    display: none;
-    font-size: 1rem;
-}
-
-#answer-box {
+    margin-bottom: 5px;
+  }
+  
+  textarea, input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    background-color: #3498db;
+    color: white;
     border: none;
-    color: #445361;
-    display: inline-block;
-    height: 40px;
-    width: 80px;
-    font-size: 1.2rem;
-}
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-bottom: 6rem;
+  }
+  
+  button:hover {
+    background-color: #2980b9;
+  }
+  
+  .participant {
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  /* footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: var(--dark-blue);
+    height: 5rem;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 1rem;
+    color: var(--white);
+    font-size: 1.5rem;
+  } */
 
-.scores {
-    display: inline-block;
-    padding: 25px;
-}
-
-/* --------- Buttons */
-
-.btn {
-    width: 220px;
-    height: 60px;
-    font-family: "Raleway", sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 1.2px;
-    color: white;
-}
-
-.btn:focus {
-    outline: none;
-}
-
-.btn--big {
-    padding-top: 10px;
-    border-radius: 50%;
-    background-color: white;
-    border: 10px solid;
-    width: 100px;
-    height: 100px;
-    font-size: 3.2rem;
-    margin: 0 30px;
-    transition: all 0.5s;
-}
-
-.btn--big::after {
-    content: attr(data-type);
+  footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: auto; /* Adjust the width as needed */
+    background-color: var(--dark-blue);
+    height: auto; /* Allow the height to adjust based on content */
+    padding: 0.5rem 1rem;
+    color: var(--white);
     font-size: 1rem;
-    color: #445361;
-    position: relative;
-    left: -0.5em;
-
-}
-
-
-
-.btn--blue {
-    border-color: blue;
-    color: blue;
-}
-
-.btn--blue:active,
-.btn--blue:hover {
-    background-color: darkblue;
-    color: white;
-}
-
-.btn--orange {
-    border-color: orange;
-    color: orange;
-}
-
-.btn--orange:active,
-.btn--orange:hover {
-    background-color: darkorange;
-    color: white;
-}
-
-.btn--red {
-    border-color: red;
-    color: red;
-}
-
-.btn--red:active,
-.btn--red:hover {
-    background-color: darkred;
-    color: white;
-}
-
-.btn--green {
-    border-color: green;
-    color: green;
-}
-
-.btn--green:active,
-.btn--green:hover {
-    background-color: darkgreen;
-    color: white;
-}
-
-.btn--gray {
-    margin-top: 25px;
-    background-color: #445361;
-    border: 1px transparent;
-    border-radius: 20px;
-}
-
-.btn--gray:active,
-.btn--gray:hover {
-    background-color: #0d1013;
-}
-
-/* --------- Media queries */
-
-@media (max-width: 414px) {
-    .controls-area {
-        width: 100%;
-    }
-
-    .btn--big {
-        margin: 0 10px;
-        padding: 5px;
-        border: 5px solid;
-        width: 50px;
-        height: 50px;
-        font-size: 1.5rem;
-    }
-
-    .btn--big::after {
-        font-size: 0.6rem;
-        left: -0.7rem;
-    }
-
-    .question-area {
-        padding: 10% 0;
-        width: 100%;
-    }
-
-    .question-area span {
-        padding: 0;
-    }
-
-    .answer-message {
-        display: block;
-    }
-
-    #answer-box {
-        display: block;
-        margin: 0 auto;
-    }
-    .btn--gray {
-        margin-top: 0;
-    }
-
-    .score-area {
-        width: 100%;
-    }
-
-    .scores {
-        margin: 0.5em auto;
-        display: block;
-        padding: 5px;
-    }
-
-    .heading {
-        font-size: 2rem;
-    }
-}
-
-@media (max-width: 320px) {
-    .game-area {
-        height: 70vh;
-    }
-
-    .controls-area {
-        width: 75%;
-        margin: 10px auto;
-    }
-
-    .btn--big {
-        margin: 10px 10px;
-    }
-    .question-area {
-        padding: 10px 0;
-    }
-
-}
+    z-index: 1000; /* Keeps the footer above other content */
+    border-radius: 5px; /* Optional: Add rounded corners */
+  }
+  footer img {
+    max-width: 100px; /* Set a max width for the image */
+    height: auto;
+  }
