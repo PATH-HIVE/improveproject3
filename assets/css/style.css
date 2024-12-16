@@ -142,12 +142,19 @@ body {
     width: auto; /* Adjust the width as needed */
     background-color: var(--dark-blue);
     height: auto; /* Allow the height to adjust based on content */
+    padding: 20px;
+    text-align: center;
     padding: 0.5rem 1rem;
     color: var(--white);
     font-size: 1rem;
     z-index: 1000; /* Keeps the footer above other content */
     border-radius: 5px; /* Optional: Add rounded corners */
+    max-width: 1200px;
+    margin: 0 auto;
   }
+
+  
+
   footer img {
     max-width: 100px; /* Set a max width for the image */
     height: auto;
