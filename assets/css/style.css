@@ -20,6 +20,7 @@ html {
 header {
   position: fixed;
   width:100%;
+  top:0;
   height: auto;
   font-size: large;
   background-color: var(--dark-blue);
@@ -31,6 +32,7 @@ header {
 
 }
 
+ 
 
 body {
  background-color: var(--sky-blue);
@@ -42,6 +44,14 @@ body {
  
 
 }
+
+button {
+  background-color: var(--sky-blue);
+  color: var(--wine);
+  font-size: xx-large;
+  font-weight: bold;
+
+ }
 
 main{
   height: 100%;
@@ -81,9 +91,10 @@ p {
 footer{
   background-color: var(--blue);
   position:relative;
+  bottom: 0;
   width: 100%;
   height: auto;
-  padding: 1rem;
+  padding: 0.25rem;
   text-align: center;
   color: var(--white);
   font-size: large;
