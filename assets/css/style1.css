@@ -1,0 +1,145 @@
+:root {
+  --blue: #0066cc;           /* Main blue - a vibrant, standard blue */
+  --light-blue: #e6f2ff;     /* Very light blue - great for backgrounds */
+  --dark-blue: #00295c;      /* Deep navy blue - for contrast and depth */
+  --sky-blue: #4da6ff;       /* Bright sky blue - for highlights */
+  --pale-blue: #b3d9ff;      /* Soft, muted blue - for subtle accents */
+  --white: #ffffff;          /* Standard white */
+  --black: #000000;          /* Standard black */
+  --wine:  #990c0cc4;
+  --old-blue: rgb(34, 0, 128);
+  --green:rgb(110, 156, 130);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+
+  height: 100%;
+  font-size: 16px; 
+  scroll-behavior: smooth;
+}
+
+
+body {
+  background-color: var(--sky-blue);
+  margin: 0;
+  height: 100%;
+  width:100%;
+  
+  font-family: Arial, sans-serif;
+  justify-content: space-between;
+  padding: 0;
+  display: flex;
+  flex-direction: column; /* Stack elements vertically */
+  min-height: 100vh; /* Full viewport height */
+ 
+ }
+
+header {
+  position: sticky;
+  width:100%;
+  /* top:0; */
+  z-index: 1000;
+  height: auto;
+  font-size: large;
+  background-color: var(--dark-blue);
+  color: var(--white);
+  text-align: center;
+  padding: 1rem;
+  margin: auto;
+  
+
+}
+
+  /* nav {
+
+  justify-content: center;
+  padding: 0.5rem 0;
+  margin: 0 1rem;
+  text-decoration:whitesmoke;
+  border-radius: 2rem;
+  transition: background-color 0.3s ease;
+  list-style: none; 
+  display: flex; 
+  justify-content: center; 
+  gap: 10rem; 
+ }  */
+
+button {
+  background-color: var(--sky-blue);
+  color: var(--wine);
+  font-size: xx-large;
+  font-weight: bold;
+  margin: 0.25rem;
+   transition: background-color 0.3s ease; 
+ }
+
+ button:hover {
+   background-color: var(--green);
+  color: var(--wine);
+}
+
+ main{
+  height: 100%;
+  width:100%;
+   padding: 2rem;
+    max-width: 100%;
+    margin: auto;
+    flex-grow: 1; /* Expand to fill available space */
+    overflow-y: auto; /* Allow scrolling if needed */
+ 
+}
+
+/* Article */
+article {
+  width: 100%;
+  height: auto;
+  margin-bottom: 2rem;
+  padding: 1rem;
+  background-color: var(--sky-blue);
+  border: 1px solid var(--dark-blue);
+  border-width:medium;
+  border-radius: 0.5rem;
+  text-align: center;
+  font-size: xx-large;
+  color: var(--old-blue);
+  box-shadow: whitesmoke;
+
+}
+
+/* Section */
+section {
+  width: auto;
+  height: auto;
+  margin-bottom: 2rem;
+  padding: 1rem;
+  background-color: var(--sky-blue);
+  border: 1px solid var(--white);
+  border-width: medium;
+  border-radius: 0.5rem;
+  font-size: x-large;
+  color: var(--wine);
+  text-align: center;
+}
+
+footer{
+  background-color: var(--blue);
+  position:fixed;
+  bottom: 0;
+  width: 100%;
+  height: auto;
+  padding: 0.25rem;
+  text-align: center;
+  color: var(--white);
+  font-size: large;
+  margin-top: auto;
+  
+  
+}
+
+
