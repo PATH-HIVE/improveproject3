@@ -19,24 +19,27 @@
 
 html {
 
-  height: 100%;
+  height: auto;
   font-size: 16px; 
   scroll-behavior: smooth;
+  overflow: auto;
 }
 
 
 body {
   background-color: var(--sky-blue);
   margin: 0;
-  height: 100%;
   width:100%;
-  
   font-family: Arial, sans-serif;
   justify-content: space-between;
   padding: 0;
   display: flex;
   flex-direction: column; /* Stack elements vertically */
   min-height: 100vh; /* Full viewport height */
+  scroll-behavior: smooth;
+  height: auto; /* Allow content to determine height */
+  overflow: visible; /* Ensure scrolling isn't restricted */
+  overflow-y: auto; /* Ensure vertical scrolling is enabled */
  
  }
 
@@ -85,12 +88,12 @@ button {
 }
 
  main{
-  height: 100%;
+  height: auto;
   width:100%;
    padding: 2rem;
     max-width: 100%;
     margin: auto;
-    flex-grow: 1; /* Expand to fill available space */
+    /* flex-grow: 1;  */
     overflow-y: auto; /* Allow scrolling if needed */
  
 }
