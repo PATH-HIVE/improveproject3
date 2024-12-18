@@ -29,11 +29,14 @@ body {
   background-color: var(--sky-blue);
   margin: 0;
   height: 100%;
+  width:100%;
   
   font-family: Arial, sans-serif;
   justify-content: space-between;
   padding: 0;
-  
+  display: flex;
+  flex-direction: column; /* Stack elements vertically */
+  min-height: 100vh; /* Full viewport height */
  
  }
 
@@ -53,36 +56,60 @@ header {
 
 }
 
+  /* nav {
+
+  justify-content: center;
+  padding: 0.5rem 0;
+  margin: 0 1rem;
+  text-decoration:whitesmoke;
+  border-radius: 2rem;
+  transition: background-color 0.3s ease;
+  list-style: none; 
+  display: flex; 
+  justify-content: center; 
+  gap: 10rem; 
+ }  */
 
 button {
   background-color: var(--sky-blue);
   color: var(--wine);
   font-size: xx-large;
   font-weight: bold;
-
+  margin: 0.25rem;
+   transition: background-color 0.3s ease; 
  }
+
+ button:hover {
+   background-color: var(--green);
+  color: var(--wine);
+}
 
  main{
   height: 100%;
-  width:100;
+  width:100%;
    padding: 2rem;
     max-width: 100%;
     margin: auto;
+    flex-grow: 1; /* Expand to fill available space */
+    overflow-y: auto; /* Allow scrolling if needed */
  
 }
 
 /* Article */
 article {
-  width: auto;
+  width: 100%;
   height: auto;
   margin-bottom: 2rem;
   padding: 1rem;
   background-color: var(--sky-blue);
   border: 1px solid var(--dark-blue);
+  border-width:medium;
   border-radius: 0.5rem;
   text-align: center;
   font-size: xx-large;
   color: var(--old-blue);
+  box-shadow: whitesmoke;
+
 }
 
 /* Section */
@@ -93,9 +120,11 @@ section {
   padding: 1rem;
   background-color: var(--sky-blue);
   border: 1px solid var(--white);
+  border-width: medium;
   border-radius: 0.5rem;
   font-size: x-large;
   color: var(--wine);
+  text-align: center;
 }
 
 footer{
