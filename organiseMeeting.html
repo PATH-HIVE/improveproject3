@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>Invite Participants</title>
+</head>
+<body>
+
+    <header>
+ 
+        <nav>
+          <!-- The anchor tag to create hyper links -->
+          <!-- href is an attribute that specifies the URL to which the link points -->
+          <button>
+            <a href="index.html"> Main Page </a>
+          </button>
+          <button>
+            <a href="dueDiligence.html"> Due Diligence</a>
+          </button>
+    
+        </nav>
+    
+      </header>
+
+      <section>
+        <form id="meetingForm">
+            <div>
+              <label for="purpose">Purpose of the Meeting:</label>
+              <textarea id="purpose" placeholder="Enter the purpose of the meeting" required></textarea>
+            </div>
+            <div>
+              <label for="location">Meeting Location:</label>
+              <textarea id="location" placeholder="Enter the location of the meeting" required></textarea>
+            </div>
+            <div>
+              <label for="date">Date:</label>
+              <input type="date" id="date" required>
+            </div>
+            <div>
+              <label for="time">Time:</label>
+              <input type="time" id="time" required>
+            </div>
+            <div id="participants">
+              <h2>Participants</h2>
+              <div class="participant">
+                <label>Name:</label>
+                <input type="text" placeholder="Participant's Name" class="participantName" required>
+                <label>Email:</label>
+                <input type="email" placeholder="Participant's Email" class="participantEmail" required>
+              </div>
+            </div>
+            <button type="button" id="addParticipant">Add Participant</button>
+            <button type="submit">Submit</button>
+            <button id="generate-pdf">Generate PDF</button>
+        
+          </form>
+      </section>
+    
+    
+      
+      
+    
+    <footer style="position: fixed;" >
+        <h2> © Take Your First Steps Towards Successful Project Management</h2>
+      </footer>
+    
+      <script src="assets/js/script.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js"></script>
+    
+</body>
+</html>

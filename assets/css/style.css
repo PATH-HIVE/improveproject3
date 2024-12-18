@@ -6,149 +6,101 @@
   --pale-blue: #b3d9ff;      /* Soft, muted blue - for subtle accents */
   --white: #ffffff;          /* Standard white */
   --black: #000000;          /* Standard black */
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "open Sans", sans-serif;
-  overflow: hidden;
+  --wine:  #990c0cc4;
+  --old-blue: rgb(34, 0, 128);
+  --green:rgb(110, 156, 130);
 }
 
 html {
+
   height: 100%;
+  font-size: 16px; 
 }
+
 header {
   position: fixed;
-  top: 0;
-  width: 100%;
-  background-color: var(--sky-blue);
-  height: 5rem;
-  /* margin-bottom: 10px; */
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  z-index: 1000; /* Ensures header stays on top of other elements */
-}
-header img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%; /* Ensures the image stretches across the header */
-  height: 100%;
-  object-fit: cover; /* Ensures the image covers the header without distorting */
-  z-index: -1; /* Places the image behind the text */
+  width:100%;
+  top:0;
+  height: auto;
+  font-size: large;
+  background-color: var(--dark-blue);
+  color: var(--white);
+  text-align: center;
+  padding: 0rem;
+  margin: auto;
+  
+
 }
 
+ 
 
 body {
-    /* font-family: Arial, sans-serif; */
-    /* margin: 20px; */
-    height: 100%;
-    min-height: 100vh;
-    background-color: var(--light-blue);
-    color: var(--dark-blue);
-    line-height: 1.6;
-    text-align: center;
-    margin: 0; /* Removes default body margin */
-    padding: 0; /* Removes default body padding */
-    font-family: 'Open Sans', sans-serif; /* Consistent typography */
-  }
+ background-color: var(--sky-blue);
+ margin: 0;
+ height: 100%;
  
-  main {
-    margin: 5rem 0 0 0;
-    display: flex;
-    flex-direction: column;
-    height: calc(100vh - 10rem);
-    padding: 1rem; /* Optional: adds some internal spacing */
-    overflow-y: auto; /* Allows scrolling if content exceeds height */
-    gap: 1rem; /* Adds consistent spacing between flex items */
-  }
+ font-family: Arial, sans-serif;
+ justify-content: space-between;
+ 
 
-  
-  h1, h2 {
-    color: #2c3e50;
-  }
-  
-  form {
-    max-width: 600px;
-    margin: 0 auto;
-    max-width: 600px;
-    margin: 0 auto;
-    margin-top: 6rem;
-    margin-bottom: 6rem;
-  }
-  
-  div {
-    margin-bottom: 15px;
-    background-color:var(--pale-blue);
-    
-  }
-  
-  label {
-    display: block;
-    font-weight: bold;
-    margin-bottom: 5px;
-  }
-  
-  textarea, input {
-    width: 100%;
-    padding: 8px;
-    margin-bottom: 10px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-  }
-  
-  button {
-    background-color: #3498db;
-    color: white;
-    border: none;
-    padding: 10px 15px;
-    cursor: pointer;
-    border-radius: 4px;
-    margin-bottom: 6rem;
-  }
-  
-  button:hover {
-    background-color: #2980b9;
-  }
-  
-  .participant {
-    border: 1px solid #ddd;
-    padding: 10px;
-    border-radius: 5px;
-    margin-bottom: 10px;
-  }
-  
-  /* footer {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    background-color: var(--dark-blue);
-    height: 5rem;
-    display: flex;
-    justify-content: end;
-    align-items: center;
-    padding: 1rem;
-    color: var(--white);
-    font-size: 1.5rem;
-  } */
+}
 
-  footer {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: auto; /* Adjust the width as needed */
-    background-color: var(--dark-blue);
-    height: auto; /* Allow the height to adjust based on content */
-    padding: 0.5rem 1rem;
-    color: var(--white);
-    font-size: 1rem;
-    z-index: 1000; /* Keeps the footer above other content */
-    border-radius: 5px; /* Optional: Add rounded corners */
-  }
-  footer img {
-    max-width: 100px; /* Set a max width for the image */
-    height: auto;
-  }
+button {
+  background-color: var(--sky-blue);
+  color: var(--wine);
+  font-size: xx-large;
+  font-weight: bold;
+
+ }
+
+main{
+  height: 100%;
+ 
+}
+
+
+
+img {
+  width: 100%;
+  height: 20%; 
+}
+
+
+
+
+
+div {
+  background-color: var(--pale-blue);
+  color: var(--old-blue);
+  padding: 1rem;
+  border: 2px solid black;
+  border-radius: 0.5rem;
+  margin:2rem;
+  font-size: xx-large;
+  text-align: center;
+}
+
+p {
+  color: var(--wine);
+  font-size:x-large;
+  text-align: justify;
+  padding: 1rem;
+
+}
+
+footer{
+  background-color: var(--blue);
+  position:relative;
+  bottom: 0;
+  width: 100%;
+  height: auto;
+  padding: 0.25rem;
+  text-align: center;
+  color: var(--white);
+  font-size: large;
+  margin-top: auto;
+  
+  
+}
+
+
