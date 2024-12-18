@@ -81,6 +81,8 @@ article {
   border: 1px solid var(--dark-blue);
   border-radius: 0.5rem;
   text-align: center;
+  font-size: xx-large;
+  color: var(--old-blue);
 }
 
 /* Section */
@@ -92,6 +94,8 @@ section {
   background-color: var(--sky-blue);
   border: 1px solid var(--white);
   border-radius: 0.5rem;
+  font-size: x-large;
+  color: var(--wine);
 }
 
 footer{
