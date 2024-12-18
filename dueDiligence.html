@@ -61,18 +61,48 @@
         </section>
         <section>
           <h3> Meeting Questions and Answers </h3>
-
+          <div>
+          <div>
+            <label for="discussion-topic">What are We Trying to Achieve by this Initiative?</label>
+            <textarea id="discussion-topic" placeholder="Enter your thoughts or objectives for this initiative"
+              required>
+            </textarea>
+          </div>
           <div>
             <label for="discussion-minutes">Minutes for Topic:</label>
             <input type="number" id="discussion-minutes" name="discussion-minutes" min="0" max="60" value="0" required>
             <button type="button" id="start-timer">Start Timer</button>
             <p id="timer-display">Time Left: 0:00</p>
-        </div>
-
-          <div>
-            <label for="location">Meeting Location:</label>
-            <textarea id="location" placeholder="Enter the location of the meeting" required></textarea>
           </div>
+        </div>
+       
+        <div>
+        <div>
+          <label for="discussion-topic-2">Why Are We Pursuing Such Initiative? What Are the Benefits?</label>
+          <textarea id="discussion-topic-2" placeholder="Enter your reasons and expected benefits for this initiative" required>
+          </textarea>
+        </div>
+        <div>
+          <label for="discussion-minutes-2">Minutes for Topic:</label>
+          <input type="number" id="discussion-minutes-2" name="discussion-minutes-2" min="0" max="60" value="0" required>
+          <button type="button" id="start-timer-2">Start Timer</button>
+          <p id="timer-display-2">Time Left: 0:00</p>
+        </div>
+      </div>
+       
+      <div>
+      <div>
+        <label for="discussion-topic-3">What Are the Criteria of Success?</label>
+        <textarea id="discussion-topic-3" placeholder="Enter the criteria for determining success of this initiative" required>
+        </textarea>
+      </div>
+      <div>
+        <label for="discussion-minutes-3">Minutes for Topic:</label>
+        <input type="number" id="discussion-minutes-3" name="discussion-minutes-3" min="0" max="60" value="0" required>
+        <button type="button" id="start-timer-3">Start Timer</button>
+        <p id="timer-display-3">Time Left: 0:00</p>
+      </div>
+    </div>
 
         </section>
       </form>
