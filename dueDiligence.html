@@ -1,63 +1,77 @@
-
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/style.css" />
-    <title>Invite Participants</title>
+    <link rel="stylesheet" href="assets/css/style1.css" />
+    <title>Due Diligence Discussions</title>
 </head>
+
 <body>
 
     <header>
 
         <h1>Manage Your Projects Successfully & With Confidence</h1>
         <nav>
-          <!-- The anchor tag to create hyper links -->
-          <!-- href is an attribute that specifies the URL to which the link points -->
-          <button>
-            <a href="index.html"> Main Page </a>
-          </button>
-          <button>
-            <a href="organiseMeeting.html"> Invite Participants</a>
-          </button>
-    
-        </nav>
-    
-      </header>
+            <!-- The anchor tag to create hyper links -->
+            <!-- href is an attribute that specifies the URL to which the link points -->
+            <button>
+                <a href="index.html"> Main Page </a>
+            </button>
+            <button>
+                <a href="organiseMeeting.html"> Invite Participants</a>
+            </button>
 
-      <section>
-        <p> <strong>Projects</strong>:
-          They all start with the seed of an idea.
-          We ask ourselves: “I have a project, I have an initiative, I have a dream: what questions shall I ask to get the
-          ball rolling?”
-          Research tells us that the success rate of transformation and change initiatives is less than 30% within
-          organisations.</p>
+        </nav>
+
+    </header>
     
-        <p>Two questions:
-          1. Can it go up to 100%
-          2. Might a well designed software platform, created with massive input from in house talent among all
-          stakeholders, be a step in the right direction?
-          Our goal is to build momentum to take the success rate from 30% to 100%.
-          This is our dream.
-        </p>
-       
-              
+    <section>
+        <h2> First Meeting Questions and Answers </h2>
+        <form id="dueDiligenceForm">
+            <div>
+                <label for="date">Date:</label>
+                <input type="date" id="date" required>
+              </div>
+              <div>
+                <label for="time">Time:</label>
+                <input type="time" id="time" required>
+              </div>
+              <div>
+                <label for="location">Meeting Location:</label>
+                <textarea id="location" placeholder="Enter the location of the meeting" required></textarea>
+              </div>
+            <div>
+              <label for="purpose">Purpose of the Meeting:</label>
+              <textarea id="purpose" placeholder="Enter the purpose of the meeting" required></textarea>
+            </div>
+            
+            
+
+            
+        
+          </form>
       </section>
     
     
-      
-      
-    
-      
-              
-    
-      <footer>
+
+
+
+
+
+
+
+
+
+
+    <footer style="position: fixed;">
         <h2> © Take Your First Steps Towards Successful Project Management</h2>
-      </footer>
-    
-    
-    
+    </footer>
+
+
+
 </body>
+
 </html>

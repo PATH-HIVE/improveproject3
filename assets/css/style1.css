@@ -18,7 +18,7 @@ html {
 }
 
 header {
-  position: fixed;
+  position: relative;
   width:100%;
   top:0;
   height: auto;
@@ -44,6 +44,10 @@ body {
  
 
 }
+
+/* section {
+  margin: 20rem;
+} */
 
 button {
   background-color: var(--sky-blue);
@@ -90,7 +94,7 @@ p {
 
 footer{
   background-color: var(--blue);
-  position:relative;
+  position:fixed;
   bottom: 0;
   width: 100%;
   height: auto;
@@ -102,17 +106,5 @@ footer{
   
   
 }
-/*Media Queries*/
 
-/* Styles for screens 400px or larger (e.g., large phones, landscape phones) */
-@media screen and (min-width: 315px) {
 
-}
-
-/* Styles for screens 600px or larger (e.g., tablets) */
-@media screen and (min-width: 600px) {
-}
-
-/* Styles for screens 1024px or larger (e.g., desktops) */
-@media screen and (min-width: 1024px) {
-}
