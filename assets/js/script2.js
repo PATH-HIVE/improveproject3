@@ -4,7 +4,7 @@ function addNewStakeholder(){
 const form = document.querySelector('#listOfStakeholders'); // Select the target section
 
 // Create the first <div> for stakeholder name
-const nameDiv = document.createElement('div');
+const nameDiv = document.createElement('div'); 
 const nameLabel = document.createElement('label');
 nameLabel.setAttribute('for', 'stakeholder-name');
 nameLabel.textContent = "Name of Stakeholder:";
