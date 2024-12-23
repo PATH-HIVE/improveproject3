@@ -70,6 +70,11 @@ On the commercial side, success will involve engaging 10,000 clients to adopt an
 ## Due Diligence Page
 *<span style="color: blue;">[Back to Content](#content)</span>*
 ## Features
+
+[View Start Timer Feature](./assets/images/TimerForEachItemofDiscussion.png)
+
+The topic of discussion was planned for 5 minutes. On start timer, it is showing that there are 4 minutes and 26 seconds left to conclude the discussion of that topic. 
+
 *<span style="color: blue;">[Back to Content](#content)</span>*
 ## Technologies Used
 *<span style="color: blue;">[Back to Content](#content)</span>*
