@@ -59,7 +59,7 @@ On the commercial side, success will involve engaging 10,000 clients to adopt an
 *<span style="color: blue;">[Back to Content](#content)</span>*
 ## Stakeholders
 
-- Mr. Muhammad Ali: Full Stack Software Development Bootcamp Tutor
+- Dr. Muhammad Ali: Full Stack Software Development Bootcamp Tutor
 - Dr. Ashraf Bocktor: Resposible for delivering the project
 - Other participants of the Full Stack Software Development Bootcamp
 - Clara Beckley: Bootcamp's first point of contact for career development
@@ -129,6 +129,8 @@ https://path-hive.github.io/project3/
 2. Data Storage: All inputs are saved in a backend database.
 3. PDF and Emails: Generate a meeting summary PDF or send participant invitations.
 4. AI Enhancement: Provide real-time AI suggestions for better outcomes.
+
+
 
 *<span style="color: blue;">[Back to Content](#content)</span>*
 ## Acknowledgement
