@@ -119,7 +119,7 @@ The meeting admin details are also captured for future reference.
 
 ## Technologies Used
 - Frontend: HTML, CSS, JavaScript
-- Version Control: Git & GitHub
+- Version Control: Visual Studio, Git, GitHub
 
 *<span style="color: blue;">[Back to Content](#content)</span>*
 ## Validation
@@ -147,7 +147,7 @@ https://path-hive.github.io/project3/
 
 *<span style="color: blue;">[Back to Content](#content)</span>*
 
-
+## Acknowledgement
 
 - Miss. Jasmine Price: Full Stack Software Development Bootcamp Colleague for teaching me her code to create dynamic elements that inspired me to start on project 3 sooner than planned. I am also grateful to her for sharing with me the session storage idea to store the data.
 - ChatGPT: For the code part to generate the PDF for the list of participants. 
