@@ -1,5 +1,5 @@
 # Take Your First Steps Towards Successful Project Management
-## Here is the link of the website as of Thursday the 20th of December 2024
+## Here is the link of the website as of Thursday the 24th of December 2024
 https://path-hive.github.io/project3/
 
 ## Content
@@ -58,26 +58,89 @@ On the commercial side, success will involve engaging 10,000 clients to adopt an
 
 *<span style="color: blue;">[Back to Content](#content)</span>*
 ## Stakeholders
+
+- Mr. Muhammad Ali: Full Stack Software Development Bootcamp Tutor
+- Dr. Ashraf Bocktor: Resposible for delivering the project
+- Other participants of the Full Stack Software Development Bootcamp
+- Clara Beckley: Bootcamp's first point of contact for career development
+- Code Institute support team
+
 *<span style="color: blue;">[Back to Content](#content)</span>*
 ## Requirements
 *<span style="color: blue;">[Back to Content](#content)</span>*
 # Website Structure
-*<span style="color: blue;">[Back to Content](#content)</span>*
 ## Landing-Page
+Provides a summary of the purpose of the tool and engages the user.
+
 *<span style="color: blue;">[Back to Content](#content)</span>*
 ## Admin Page
+Prepares the first steps of the meeting to discuss the new initative by inviting the potential participants and providing them with the admin details of the meeting; such as the date and the time. 
+
 *<span style="color: blue;">[Back to Content](#content)</span>*
 ## Due Diligence Page
+The questions to be answered are prepopulated on this page. The team works collaboratively to answer these questions. 
+
+<img src="./assets/images/SampleForItemsofDiscussion.png">
+
+The meeting admin details are also captured for future reference. 
+
+<img src="./assets/images/MeetingAdminDetails.png">
+
 *<span style="color: blue;">[Back to Content](#content)</span>*
 ## Features
+
+
+
+1. On the admin page the user can add new participants and then add her/his contact details.
+
+2. A basic Pdf is generated with the admin details of the meeting and the list of invited meeting participants. [View Sample PDF Feature](./assets/images/SamplePFDAdminDetailsSummary.png)
+
+3. The topic of discussion was planned for 5 minutes. On start timer, it is showing that there are 4 minutes and 26 seconds left to conclude the discussion of that topic. 
+[View Start Timer Feature](./assets/images/TimerForEachItemofDiscussion.png)
+
+4. The user can add new stakeholder and then add his/her details. [View Add New Stakeholder Feature](./assets/images/SampleStakeholdersInfo.png)
+    
+5. The role of the stakholder can be selected from a pre-populated options of a drop down menu. [View role selection](./assets/images/DropdownMenu.png)
+
 *<span style="color: blue;">[Back to Content](#content)</span>*
+
 ## Technologies Used
+- Frontend: HTML, CSS, JavaScript
+- Version Control: Git & GitHub
+
 *<span style="color: blue;">[Back to Content](#content)</span>*
 ## Validation
+
+- For HTML, the following validator was used: [W3C Validator](https://validator.w3.org/nu/)
+
+- For CSS, the following validator was used: [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
+
+- For JavaScript, the following validator was used: [JSHint](https://jshint.com/).
+
 *<span style="color: blue;">[Back to Content](#content)</span>*
 ## Deployment
+The project is deployed on the github pages and the link has been provided at the top of the readme. Here is the link once more
+
+https://path-hive.github.io/project3/
+
 *<span style="color: blue;">[Back to Content](#content)</span>*
 ## Future Adding
+1. User Interaction: Users add dynamic questions, allocate time, and fill in answers.
+2. Data Storage: All inputs are saved in a backend database.
+3. PDF and Emails: Generate a meeting summary PDF or send participant invitations.
+4. AI Enhancement: Provide real-time AI suggestions for better outcomes.
+
 *<span style="color: blue;">[Back to Content](#content)</span>*
 ## Acknowledgement
+
+
+- Miss. Jasmine Price: Full Stack Software Development Bootcamp Colleague for teaching me her code to create dynamic elements that inspired me to start on project 3 sooner than planned. I am also grateful to her for sharing with me the session storage idea to store the data.
+- ChatGPT: For the code part to generate the PDF for the list of participants. 
+
+- My December Hackathon Team: For introducing me to flask and mongodb to bring sooner my involvment of the backend that I will use to complete the future adding of this project.
+
+- Special thanks to Vernell Clark the scrum master of the hackathons I took part in: For making me more fluent with git commands and to practically undestand about branching, pull and push requests.
+
+- The code institute hackathon organisers: For organisaing such a well run activity. 
+
 *<span style="color: blue;">[Back to Content](#content)</span>*
