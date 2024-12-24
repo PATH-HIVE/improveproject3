@@ -75,7 +75,12 @@ On the commercial side, success will involve engaging 10,000 clients to adopt an
 
 The topic of discussion was planned for 5 minutes. On start timer, it is showing that there are 4 minutes and 26 seconds left to conclude the discussion of that topic. 
 
-[Example of PDF Generation](./assets/Documents/MeetingDetails.pdf)
+[View Example of PDF Generation](./assets/Documents/MeetingDetails.pdf)
+
+Download and view the [PDF file here](./assets/Documents/MeetingDetails.pdf).
+
+
+
 
 A basic Pdf is generated with the admin details of the meeting and the list of invited meeting participants.
 
