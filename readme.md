@@ -18,6 +18,7 @@ https://path-hive.github.io/project3/
 * [Deployment](#deployment)
 * [Future Adding](#future-adding)
 * [Acknowledgement](#acknowledgement)
+* [Git Used](#git-used)
 
 
 ## What I would like to achieve
@@ -67,6 +68,18 @@ On the commercial side, success will involve engaging 10,000 clients to adopt an
 
 *<span style="color: blue;">[Back to Content](#content)</span>*
 ## Requirements
+
+1. Basic README file
+2. The web application must have content
+3. The web application must be deployed
+4. The deployment link must be added to README
+5. The application must be responsive to various devices
+6. The application must be accessible 
+7. The application should have a basic user experience design
+8. The code must be tested, specailly the Java Script part
+9. It must include some Java Script interactive functionality
+10. Write the git commands most often used
+
 *<span style="color: blue;">[Back to Content](#content)</span>*
 # Website Structure
 ## Landing-Page
@@ -133,7 +146,7 @@ https://path-hive.github.io/project3/
 
 
 *<span style="color: blue;">[Back to Content](#content)</span>*
-## Acknowledgement
+
 
 
 - Miss. Jasmine Price: Full Stack Software Development Bootcamp Colleague for teaching me her code to create dynamic elements that inspired me to start on project 3 sooner than planned. I am also grateful to her for sharing with me the session storage idea to store the data.
@@ -144,5 +157,33 @@ https://path-hive.github.io/project3/
 - Special thanks to Vernell Clark the scrum master of the hackathons I took part in: For making me more fluent with git commands and to practically undestand about branching, pull and push requests.
 
 - The code institute hackathon organisers: For organisaing such a well run activity. 
+
+*<span style="color: blue;">[Back to Content](#content)</span>*
+ 
+## Git Used
+- git pull origin main
+- git add .
+- git commit -m "Message Descripton"
+- git push origin branch name//ab-project3-branch3
+- git branch
+- git checkout -b ab-project3-branch3
+- git push --set-upstream origin ab-project3-branch3
+- git stash
+- git stash pop
+- git fetch origin
+- git branch -M main
+- git push -u origin main
+- git remote -v
+- git remote set-url origin https://github.com/PATH-HIVE/project3.git
+- git remote add origin https://github.com/PATH-HIVE/project3.git
+- git push -u origin main
+- git config --global user.email"...@..."
+- git config --global user.name "...”
+- git init -b main
+- git branch -M main
+- git pull --rebase origin main
+- git clone https://github.com/PATH-HIVE/project3.git
+- git status
+
 
 *<span style="color: blue;">[Back to Content](#content)</span>*
