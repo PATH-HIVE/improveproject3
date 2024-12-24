@@ -84,18 +84,19 @@ The meeting admin details are also captured for future reference.
 
 
 
-1. The topic of discussion was planned for 5 minutes. On start timer, it is showing that there are 4 minutes and 26 seconds left to conclude the discussion of that topic. 
+1. On the admin page the user can add new participants and then add her/his contact details.
+
+2. A basic Pdf is generated with the admin details of the meeting and the list of invited meeting participants. [View Sample PDF Feature](./assets/images/SamplePFDAdminDetailsSummary.png)
+
+3. The topic of discussion was planned for 5 minutes. On start timer, it is showing that there are 4 minutes and 26 seconds left to conclude the discussion of that topic. 
 [View Start Timer Feature](./assets/images/TimerForEachItemofDiscussion.png)
-
-2. The user can add new participants and then add her/his details.
-
-3. A basic Pdf is generated with the admin details of the meeting and the list of invited meeting participants. [View Sample PDF Feature](./assets/images/SamplePFDAdminDetailsSummary.png)
 
 4. The user can add new stakeholder and then add his/her details. [View Add New Stakeholder Feature](./assets/images/SampleStakeholdersInfo.png)
     
-5. The role of the stakholder can be selected from a pre-populated options of a drop down menu. 
+5. The role of the stakholder can be selected from a pre-populated options of a drop down menu. [View role selection](./assets/images/DropdownMenu.png)
 
 *<span style="color: blue;">[Back to Content](#content)</span>*
+
 ## Technologies Used
 *<span style="color: blue;">[Back to Content](#content)</span>*
 ## Validation
