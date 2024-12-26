@@ -219,6 +219,28 @@ https://path-hive.github.io/project3/
 16. Check if the branch exists on GitHub
 
         git branch -r
+17. Stage the changes
+
+        git add readme.md
+
+18. Commit the changes
+
+        git commit -m "Update readme"
+
+19. Push changes to the branch
+
+        git push origin ab-improveproject3-branch1
+
+20. For subsequent pushes to the same branch
+
+        git push
+
+21. For subsequesnt staging all changes
+
+        git add .
+
+
+
 
 
 
