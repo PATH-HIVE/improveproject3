@@ -240,33 +240,4 @@ https://path-hive.github.io/project3/
         git add .
 
 
-
-
-
-
-- git pull origin main
-- git add .
-- git commit -m "Message Descripton"
-- git push origin branch name//ab-project3-branch3
-- git branch
-- git checkout -b ab-project3-branch3
-- git push --set-upstream origin ab-project3-branch3
-- git stash
-- git stash pop
-- git fetch origin
-- git branch -M main
-- git push -u origin main
-- git remote -v
-- git remote set-url origin https://github.com/PATH-HIVE/project3.git
-- git remote add origin https://github.com/PATH-HIVE/project3.git
-- git push -u origin main
-- git config --global user.email"...@..."
-- git config --global user.name "...”
-- git init -b main
-- git branch -M main
-- git pull --rebase origin main
-- git clone https://github.com/PATH-HIVE/project3.git
-- git status
-
-
 *<span style="color: blue;">[Back to Content](#content)</span>*
