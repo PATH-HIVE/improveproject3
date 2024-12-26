@@ -161,6 +161,89 @@ https://path-hive.github.io/project3/
 *<span style="color: blue;">[Back to Content](#content)</span>*
  
 ## Git Used
+1. Clone project3 from github to my local machine
+
+       git clone https://github.com/PATH-HIVE/project3.git
+
+2. Rename my folder in my local machine from project3 to improveproject3
+
+3. Create a new repository in Github with the name improveproject3
+
+4. Initiate a new local git repository 
+ 
+        git init
+
+5. Link to the remote repository in Github
+
+       git remote add origin https://github.com/PATH-HIVE/improveproject3.git
+
+6. Rename the default branch to main.
+
+       git branch -M main
+
+7. Verify the remote is set correctly
+
+       git remote -v
+
+8. Makes sure to update Updates the origin remote URL to point to the new repository (improveproject3) on GitHub.
+
+       git remote set-url origin https://github.com/PATH-HIVE/improveproject3.git
+
+9. Checks the status of the working directory and ensures everything is ready to be pushed.
+
+       git status
+
+10. Push local changes to the remote and set upstream. In this case pushes the whole code to the github repository as it was empty
+
+        git push -u origin main 
+
+11.  Create a new branch in github from the command line
+
+         git branch ab-improveproject3-branch1
+
+12. Switch to the new branch
+
+        git checkout ab-improveproject3-branch1
+13. Create branch and switch in one step 
+
+        git checkout -b ab-improveproject3-branch1
+
+
+14. Push the new branch to github
+
+        git push -u origin ab-improveproject3-branch1
+15. Check if the branch exists locally
+
+        git branch
+
+16. Check if the branch exists on GitHub
+
+        git branch -r
+17. Stage the changes
+
+        git add readme.md
+
+18. Commit the changes
+
+        git commit -m "Update readme"
+
+19. Push changes to the branch
+
+        git push origin ab-improveproject3-branch1
+
+20. For subsequent pushes to the same branch
+
+        git push
+
+21. For subsequesnt staging all changes
+
+        git add .
+
+
+
+
+
+
 - git pull origin main
 - git add .
 - git commit -m "Message Descripton"
