@@ -1,6 +1,6 @@
 # Take Your First Steps Towards Successful Project Management
 ## Here is the link of the website as of Thursday the 24th of December 2024
-https://path-hive.github.io/project3/
+https://path-hive.github.io/improveproject3/
 
 ## Content
 * [What I would like to achieve](#what-i-would-like-to-achieve)
@@ -130,11 +130,13 @@ The meeting admin details are also captured for future reference.
 
 - For JavaScript, the following validator was used: [JSHint](https://jshint.com/).
 
+- For accessiblity and performance, lighthouse in the google development tools was used. 
+
 *<span style="color: blue;">[Back to Content](#content)</span>*
 ## Deployment
 The project is deployed on the github pages and the link has been provided at the top of the readme. Here is the link once more
 
-https://path-hive.github.io/project3/
+https://path-hive.github.io/improveproject3/
 
 *<span style="color: blue;">[Back to Content](#content)</span>*
 ## Future Adding
