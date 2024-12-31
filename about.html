@@ -7,7 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description"
         content="Learn how to use the project management tool effectively. Step-by-step guidance on admin setup and inviting stakeholders to manage your projects with confidence.">
-
+    <meta name="keywords"
+        content="projects, project management, change, change management, start-up, first-meeeting, due diligence, stakeholders, main questions to discuss, meeting minutes">
+    <meta name="author" content="DJMA Partnership">
     <link rel="stylesheet" href="assets/css/style2.css" />
     <title>How to Use the Project Management Tool</title>
 </head>
@@ -22,13 +24,13 @@
             <!-- href is an attribute that specifies the URL to which the link points -->
 
 
-            <a href="index.html"> Main Page</a>
+            <a href="index.html" aria-label="Go to the Main Page"> Main Page</a>
 
 
-            <a href="organiseMeeting.html"> Invite Participants </a>
+            <a href="organiseMeeting.html" aria-label="Go to the Invite Particpants Page"> Invite Participants </a>
 
 
-            <a href="dueDiligence.html"> Due Diligence</a>
+            <a href="dueDiligence.html" aria-label="Go to the Due Diligence Page> Due Diligence</a>
 
 
 
@@ -36,36 +38,39 @@
 
     </header>
 
-    <main role="main">
-        <article>
-            <header>
-                <h2> How to Use the Due Diligence Tool</h2>
-            </header>
-            <section>
-                <figure>
-                    <img src="assets/images/Business Meeting 2.jpg"
-                        alt="A diverse group of eight people, including three women and five men, sitting around a table engaged in a discussion, symbolizing collaboration and teamwork.">
+    <main role=" main">
+                <article>
+                    <header>
+                        <h2> How to Use the Due Diligence Tool</h2>
+                    </header>
+                    <section aria-labelledby="meeting-description">
+                        <figure>
+                            <img src="assets/images/Business Meeting 2.jpg"
+                                alt="A diverse group of eight people, including three women and five men, sitting around a table engaged in a discussion, symbolizing collaboration and teamwork."
+                                id="business-meeting-image">
 
-                    <figcaption>
-                        A diverse group of people engaged in a collaborative dicussion about the new initiative.
-                    </figcaption>
-                </figure>
-            </section>
+                            <figcaption id="meeting-description">
+                                A diverse group of people engaged in a collaborative discussion about the new
+                                initiative.
+                            </figcaption>
+                        </figure>
+                    </section>
 
-            <section aria-labelledby="step1-summary">
-                <details>
-                    <summary id="step1-summary"> Step I: Admin Setup </summary>
-                    <P> Part I is about gathering the admin part. </P>
-                </details>
-            </section>
-            <section aria-labelledby="step2-summary">
-                <details>
-                    <summary id="step2-summary"> Step II: Inviting Stakeholders </summary>
-                    <P> Part II is about inviting the stakeholders. </P>
-                </details>
-            </section>
-        </article>
-    </main>
+
+                    <section aria-labelledby="step1-summary">
+                        <details>
+                            <summary id="step1-summary"> Step I: Admin Setup </summary>
+                            <P> Part I is about gathering the admin part. </P>
+                        </details>
+                    </section>
+                    <section aria-labelledby="step2-summary">
+                        <details>
+                            <summary id="step2-summary"> Step II: Inviting Stakeholders </summary>
+                            <P> Part II is about inviting the stakeholders. </P>
+                        </details>
+                    </section>
+                </article>
+                </main>
 
 </body>
 
